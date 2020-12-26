@@ -1,6 +1,7 @@
 body{
-  background: #111;
+  background: #010101;
   margin: 0;
+  overflow: hidden;
 }
 
 h2{
@@ -10,8 +11,8 @@ h2{
     text-align: center;
     letter-spacing: 0.2em;
     font-size: 4em;
-    font-family: 'Mountains of Christmas';
-    text-shadow: 0px 0px 8px rgba(255,65,185,1);
+    font-family: 'Emilys Candy';
+    text-shadow: 0px 0px 8px rgba(105, 201, 208, 1);
 }
 
 #wire {
@@ -60,22 +61,22 @@ h2{
 
 @keyframes even-flash {
   0%, 100% {
-    background: rgba(255, 230, 65, 1);
-    box-shadow: 0px 2px 20px 4px rgba(255, 230, 65, 1);
+    background: rgba(105, 201, 208, 1);
+    box-shadow: 0px 2px 20px 4px rgba(105, 201, 208, 1);
   }
   50% {
-    background: rgba(255, 230, 65, 0.5);
-    box-shadow: 0px 2px 20px 4px rgba(255, 230, 65, 0.3);
+    background: rgba(105, 201, 208, 0.5);
+    box-shadow: 0px 2px 20px 4px rgba(105, 201, 208, 0.3);
   }
 }
 
 @keyframes odd-flash {
  50% {
-    background: rgba(255,65, 185, 1);
-    box-shadow: 0px 2px 20px 4px  rgba(255,65, 185, 1);
+    background: rgba(238, 29, 82, 1);
+    box-shadow: 0px 2px 20px 4px  rgba(238,29, 82, 1);
   }
   0%, 100% {
-    background:  rgba(255,65, 185, .5);
-    box-shadow: 0px 2px 20px 4px  rgba(255,65, 185, .3);
+    background:  rgba(238,29, 82, .5);
+    box-shadow: 0px 2px 20px 4px  rgba(238,29, 82, .3);
   }
 }
